@@ -78,7 +78,7 @@ const addToTransactionsArray = (transactionName, transactionAmount) => {
     name: transactionName,
     amount: Number(transactionAmount),
   });
-}
+};
 
 const cleanInputs = () => {
   inputTransactionName.value = "";
